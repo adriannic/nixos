@@ -1,11 +1,4 @@
-{
-  inputs,
-  outputs,
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+{pkgs, ...}: {
   gtk = {
     cursorTheme = {
       name = "Catppuccin-Mocha-Dark-Cursors";

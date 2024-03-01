@@ -1,11 +1,7 @@
-{
-  inputs,
-  outputs,
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+{inputs, ...}: {
+  imports = [
+    inputs.ags.homeManagerModules.default
+  ];
   programs = {
     ags.enable = true;
     bat.enable = true;

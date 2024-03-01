@@ -1,11 +1,4 @@
-{
-  inputs,
-  outputs,
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+_: {
   hardware = {
     opengl.enable = true;
     nvidia.modesetting.enable = true;

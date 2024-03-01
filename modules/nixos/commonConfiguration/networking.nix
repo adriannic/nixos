@@ -1,10 +1,3 @@
-{
-  inputs,
-  outputs,
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
+_: {
   networking.networkmanager.enable = true;
 }

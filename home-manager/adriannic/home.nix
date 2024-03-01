@@ -1,17 +1,13 @@
 {
-  inputs,
   outputs,
-  lib,
-  config,
   pkgs,
   ...
 }: {
   imports = [
-    inputs.ags.homeManagerModules.default
     ./nixpkgs.nix
-    ./style.nix
     ./programs.nix
     ./services.nix
+    ./style.nix
     ./xdg.nix
   ];
 
