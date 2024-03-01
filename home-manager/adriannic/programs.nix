@@ -23,6 +23,7 @@
     home-manager.enable = true;
     kitty.enable = true;
     lsd.enable = true;
+    mangohud.enable = true;
     mpv.enable = true;
     neovim = {
       defaultEditor = true;
@@ -34,17 +35,19 @@
       withPython3 = true;
     };
     pywal.enable = true;
-    ripgrep.enable = true;
     starship = {
       enable = true;
       enableBashIntegration = true;
       enableFishIntegration = true;
     };
+    obs-studio.enable = true;
     thefuck = {
       enable = true;
       enableBashIntegration = true;
       enableFishIntegration = true;
     };
+    yt-dlp.enable = true;
+    zathura.enable = true;
     zoxide = {
       enable = true;
       enableBashIntegration = true;

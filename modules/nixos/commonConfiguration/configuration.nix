@@ -11,6 +11,7 @@
     ./networking.nix
     ./nix.nix
     ./programs.nix
+    ./security.nix
     ./services.nix
     ./users.nix
   ];

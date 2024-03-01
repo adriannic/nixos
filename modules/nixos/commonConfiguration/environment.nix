@@ -16,5 +16,8 @@
       NIXOS_OZONE_WL = "1";
     };
     systemPackages = with pkgs; [];
+    variables = {
+      _JAVA_OPTIONS = "-Dawt.useSystemAAFontSettings=lcd";
+    };
   };
 }
