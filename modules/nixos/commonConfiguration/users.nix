@@ -2,7 +2,7 @@
   users.users.adriannic = {
     isNormalUser = true;
     description = "adriannic";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = ["networkmanager" "wheel"];
     packages = with pkgs; [];
   };
 
