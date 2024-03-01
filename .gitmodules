@@ -1,0 +1,6 @@
+[submodule "home-manager/adriannic/dotfiles"]
+	path = home-manager/adriannic/dotfiles
+	url = https://github.com/adriannic/dotfiles
+[submodule "pkgs/hypr-workspaces"]
+	path = pkgs/hypr-workspaces
+	url = https://github.com/adriannic/hypr-workspaces
