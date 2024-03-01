@@ -43,6 +43,8 @@
       wl-clip-persist
       wofi
       ydotool
+      luajitPackages.luarocks
+      python3
     ];
     stateVersion = "23.11";
     username = "adriannic";
