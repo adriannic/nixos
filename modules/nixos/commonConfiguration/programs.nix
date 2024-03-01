@@ -1,4 +1,4 @@
-{config, ...}: {
+{pkgs, config, ...}: {
   programs = {
     dconf.enable = true;
     hyprland.enable = true;
@@ -7,6 +7,12 @@
       config = {
         init.defaultBranch = "main";
       };
+    };
+    nix-ld = {
+      enable = true;
+      libraries = with pkgs; [
+
+      ];
     };
   };
 }

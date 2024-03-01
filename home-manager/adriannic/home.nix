@@ -25,15 +25,19 @@
       deadnix
       ffmpeg
       gcc
+      glow
       gnumake
       hyprshot
       libsForQt5.dolphin
       libsForQt5.polkit-kde-agent
       libsForQt5.qtstyleplugin-kvantum
+      luajitPackages.luarocks
       megacmd
       neofetch
       networkmanagerapplet
       outputs.packages.x86_64-linux.hypr-workspaces
+      outputs.packages.x86_64-linux.rebuild
+      python3
       ranger
       statix
       swaynotificationcenter
@@ -43,8 +47,6 @@
       wl-clip-persist
       wofi
       ydotool
-      luajitPackages.luarocks
-      python3
     ];
     stateVersion = "23.11";
     username = "adriannic";
