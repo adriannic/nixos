@@ -1,4 +1,11 @@
 {
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   programs = {
     dconf.enable = true;
     hyprland.enable = true;

@@ -7,6 +7,7 @@
   ...
 }: {
   imports = [
+    inputs.ags.homeManagerModules.default
     ./nixpkgs.nix
     ./style.nix
     ./programs.nix

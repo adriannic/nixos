@@ -1,4 +1,11 @@
 {
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   xdg = {
     configFile = {
       "ags" = {

@@ -1,4 +1,11 @@
 {
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   services = {
     cbatticon.enable = true;
     cliphist.enable = true;

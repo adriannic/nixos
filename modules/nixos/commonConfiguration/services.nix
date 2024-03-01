@@ -1,4 +1,11 @@
 {
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   services = {
     pipewire = {
       enable = true;

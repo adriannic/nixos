@@ -1,4 +1,11 @@
 {
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   environment = {
     etc =
       lib.mapAttrs' (name: value: {

@@ -1,4 +1,11 @@
-{pkgs, ...}: {
+{
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   users.users.adriannic = {
     isNormalUser = true;
     description = "adriannic";
