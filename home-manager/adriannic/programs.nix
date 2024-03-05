@@ -20,6 +20,11 @@
       userEmail = "spamadriannic@gmail.com";
       userName = "adriannic";
     };
+    fzf = {
+      enable = true;
+      enableBashIntegration = true;
+      enableFishIntegration = true;
+    };
     home-manager.enable = true;
     kitty.enable = true;
     lsd.enable = true;
@@ -46,6 +51,7 @@
       enableBashIntegration = true;
       enableFishIntegration = true;
     };
+    ripgrep.enable = true;
     yt-dlp.enable = true;
     zathura.enable = true;
     zoxide = {
