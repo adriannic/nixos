@@ -47,6 +47,8 @@
       };
       "neofetch/config.conf".source = ./dotfiles/.config/neofetch/config.conf;
       "pipewire/pipewire.conf.d/99-input-denoising.conf".source = ./dotfiles/.config/pipewire/pipewire.conf.d/99-input-denoising.conf;
+      "qBitTorrent/mocha.qbtheme".source = ./dotfiles/.config/qBittorrent/mocha.qbtheme;
+      "qBitTorrent/qBitTorrent.conf".source = ./dotfiles/.config/qBittorrent/qBittorrent.conf;
       "ranger" = {
         source = ./dotfiles/.config/ranger;
         recursive = true;
