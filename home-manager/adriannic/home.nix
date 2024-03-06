@@ -62,6 +62,7 @@
       nwg-look
       outputs.packages.x86_64-linux.hypr-workspaces
       outputs.packages.x86_64-linux.rebuild
+      outputs.packages.x86_64-linux.yay
       pavucontrol
       python3
       pywalfox-native

@@ -12,4 +12,10 @@ with args; {
       popd
     '';
   };
+  yay = pkgs.writeShellApplication {
+    name = "yay";
+    text = ''
+      nix flake update ~/nixos
+    '';
+  };
 }
