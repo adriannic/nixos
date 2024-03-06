@@ -2,26 +2,25 @@
   dconf = {
     enable = true;
     settings = {
-      # "org/gnome/desktop/background".picture-uri-dark = "file://${pkgs.nixos-artwork.wallpapers.nineish-dark-gray.src}";
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
+        cursorTheme = "Catppuccin-Mocha-Dark-Cursors";
+        iconTheme = "candy-icons";
         theme = "Catppuccin-Mocha-Standard-Mauve-Dark";
       };
     };
   };
 
   gtk = {
-    cursorTheme.name = "Catppuccin-Mocha-Dark-Cursors";
+    cursorTheme = {
+      name = "Catppuccin-Mocha-Dark-Cursors";
+      package = pkgs.catppuccin-cursors.mochaDark;
+    };
     enable = true;
-    gtk3.extraConfig.Settings = ''
-      gtk-application-prefer-dark-theme=1
-      gtk-cursor-theme-name=Catppuccin-Mocha-Dark-Cursors
-    '';
-    gtk4.extraConfig.Settings = ''
-      gtk-application-prefer-dark-theme=1
-      gtk-cursor-theme-name=Catppuccin-Mocha-Dark-Cursors
-    '';
-    iconTheme.name = "candy-icons";
+    iconTheme = {
+      name = "candy-icons";
+      package = pkgs.candy-icons;
+    };
     theme = {
       name = "Catppuccin-Mocha-Standard-Mauve-Dark";
       package = pkgs.catppuccin-gtk.override {
@@ -30,9 +29,4 @@
       };
     };
   };
-
-  # qt = {
-  #   enable = true;
-  #   platformTheme = "qtct";
-  # };
 }

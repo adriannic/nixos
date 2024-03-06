@@ -14,16 +14,16 @@
     };
     firefox.enable = true;
     fish.enable = true;
+    fzf = {
+      enable = true;
+      enableBashIntegration = true;
+      enableFishIntegration = true;
+    };
     gh.enable = true;
     git = {
       enable = true;
       userEmail = "spamadriannic@gmail.com";
       userName = "adriannic";
-    };
-    fzf = {
-      enable = true;
-      enableBashIntegration = true;
-      enableFishIntegration = true;
     };
     home-manager.enable = true;
     kitty.enable = true;
@@ -39,19 +39,19 @@
       withNodeJs = true;
       withPython3 = true;
     };
+    obs-studio.enable = true;
     pywal.enable = true;
+    ripgrep.enable = true;
     starship = {
       enable = true;
       enableBashIntegration = true;
       enableFishIntegration = true;
     };
-    obs-studio.enable = true;
     thefuck = {
       enable = true;
       enableBashIntegration = true;
       enableFishIntegration = true;
     };
-    ripgrep.enable = true;
     yt-dlp.enable = true;
     zathura.enable = true;
     zoxide = {

@@ -5,10 +5,10 @@ _: {
     playerctld.enable = true;
     swayosd.enable = true;
     udiskie = {
-      automount = true;
+      automount = false;
       enable = true;
       notify = true;
-      tray = "auto";
+      tray = "always";
     };
   };
 }

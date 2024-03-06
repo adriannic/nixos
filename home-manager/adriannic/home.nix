@@ -21,9 +21,6 @@
       alejandra
       ani-cli
       blueberry
-      candy-icons
-      catppuccin-cursors.mochaDark
-      catppuccin-gtk
       (catppuccin-kvantum.override {
         accent = "Mauve";
         variant = "Mocha";
@@ -35,7 +32,7 @@
       gamescope
       gcc
       glow
-      gnome.gnome-calculator
+      gnome.adwaita-icon-theme
       gnumake
       gtk3
       hyprpicker
@@ -44,8 +41,8 @@
       jq
       kdePackages.qt6ct
       kdePackages.qtstyleplugin-kvantum
+      libnotify
       libsForQt5.ark
-      libsForQt5.discover
       libsForQt5.dolphin
       libsForQt5.dolphin-plugins
       libsForQt5.kcalc
@@ -62,6 +59,7 @@
       neofetch
       networkmanagerapplet
       nil
+      nwg-look
       outputs.packages.x86_64-linux.hypr-workspaces
       outputs.packages.x86_64-linux.rebuild
       pavucontrol
@@ -70,6 +68,7 @@
       qbittorrent
       ranger
       ripgrep-all
+      rustup
       statix
       steam
       swappy
@@ -78,6 +77,7 @@
       swww
       telegram-desktop
       tldr
+      udiskie
       unrar
       unzip
       wev
@@ -85,6 +85,7 @@
       wl-clipboard
       wl-clip-persist
       wofi
+      xdg-utils
       ydotool
       zip
     ];

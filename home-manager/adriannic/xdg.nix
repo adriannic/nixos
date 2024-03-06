@@ -46,9 +46,11 @@
         source = ./dotfiles/.config/mpv;
       };
       "neofetch/config.conf".source = ./dotfiles/.config/neofetch/config.conf;
-      "pipewire/pipewire.conf.d/99-input-denoising.conf".source = ./dotfiles/.config/pipewire/pipewire.conf.d/99-input-denoising.conf;
+      # "pipewire/pipewire.conf.d/99-input-denoising.conf".source = ./dotfiles/.config/pipewire/pipewire.conf.d/99-input-denoising.conf;
       "qBitTorrent/mocha.qbtheme".source = ./dotfiles/.config/qBittorrent/mocha.qbtheme;
       "qBitTorrent/qBitTorrent.conf".source = ./dotfiles/.config/qBittorrent/qBittorrent.conf;
+      "qt5ct/qt5ct.conf".source = ./dotfiles/.config/qt5ct/qt5ct.conf;
+      "qt6ct/qt6ct.conf".source = ./dotfiles/.config/qt6ct/qt6ct.conf;
       "ranger" = {
         source = ./dotfiles/.config/ranger;
         recursive = true;
@@ -71,6 +73,10 @@
         recursive = true;
         source = ./dotfiles/.config/wofi;
       };
+    };
+    dataFile = {
+      "applications/user/randwp.desktop".source = ./dotfiles/.local/share/applications/user/randwp.desktop;
+      "kservices5/ServiceMenus/wp.desktop".source = ./dotfiles/.local/share/kservices5/ServiceMenus/wp.desktop;
     };
     enable = true;
     userDirs = {

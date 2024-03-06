@@ -37,6 +37,12 @@
           ./nixos/vm/configuration.nix
         ];
       };
+      portatil = nixpkgs.lib.nixosSystem {
+        specialArgs = {inherit inputs outputs;};
+        modules = [
+          ./nixos/portatil/configuration.nix
+        ];
+      };
     };
     homeConfigurations = {
       adriannic = home-manager.lib.homeManagerConfiguration {
