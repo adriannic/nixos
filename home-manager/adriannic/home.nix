@@ -25,6 +25,7 @@
         accent = "Mauve";
         variant = "Mocha";
       })
+      brightnessctl
       deadnix
       discord
       ffmpeg
