@@ -51,6 +51,7 @@
       libsForQt5.polkit-kde-agent
       libsForQt5.qt5ct
       libsForQt5.qtstyleplugin-kvantum
+      linuxHeaders
       luajitPackages.luarocks
       lutris
       mangal
